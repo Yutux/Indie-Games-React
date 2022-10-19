@@ -22,6 +22,10 @@
     "use-reducer-logger": "^1.0.2",
     "web-vitals": "^2.1.4"
   },
+  "engines": {
+    "node": "16.17.1",
+    "npm": "7.12.1"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

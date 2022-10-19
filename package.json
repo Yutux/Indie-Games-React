@@ -1,12 +1,16 @@
 {
   "name": "indie-games-react",
   "version": "1.0.0",
-  "description": "",
+  "description": "1st",
   "main": "index.js",
   "scripts": {
     "build": "cd backend && npm install  && cd ../frontend && npm install && npm run build",
     "start": "node backend/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "16.17.1",
+    "npm": "7.12.1"
   },
   "repository": {
     "type": "git",
