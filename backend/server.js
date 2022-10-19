@@ -32,8 +32,8 @@ app.use('/api/games', gameRouter);
 app.use('/api/users', userRouter);
 app.use('/api/orders', orderRouter);
 
-const_dirname = path.resolve();
-app.use(express.static(path.join(_dirname, '/frontend/build')));
+const __dirname = path.resolve();
+app.use(Express.static(path.join(__dirname, '/frontend/build')));
 app.get('*', (req, res) =>
   res.sendFile(path.join(__dirname, '/frontend/build/index.html'))
 );
