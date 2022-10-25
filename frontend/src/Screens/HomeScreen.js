@@ -14,7 +14,7 @@ const reducer = (state, action) =>{
         case 'FETCH_REQUEST':
             return {...state, loading: true};
         case 'FETCH_SUCCESS':
-            return {...state, Games: action.payload, loading: false};
+            return {...state, game: action.payload, loading: false};
         case 'FETCH_FAIL':
             return {...state, loading: false, error: action.payload};
         default:
@@ -24,13 +24,13 @@ const reducer = (state, action) =>{
 
 function HomeScreen() {
 
-    const[{loading, error, Games}, dispatch] = useReducer(logger(reducer), {
-        Games:[],
+    const[{loading, error, game}, dispatch] = useReducer(logger(reducer), {
+        game:[],
         loading: true, 
         error: '',
     });
 
-    //const [Games, setGames] = useState([]);
+    //const [games, setGames] = useState([]);
     useEffect(() => {
         const fetchData = async () => {
             dispatch({type: 'FETCH_REQUEST'});
@@ -56,9 +56,9 @@ function HomeScreen() {
                 <MessageBox variant="danger">{error}</MessageBox>
             ): (
             <Row>
-                {Games.map((Games) => (
-                <Col key={Games.slug} sm={6} md={4} lg={3}>
-                    <ProdGame Games={Games}></ProdGame>
+                {game.map((game) => (
+                <Col key={game.slug} sm={6} md={4} lg={3}>
+                    <ProdGame game={game}></ProdGame>
                 </Col>
                 ))}
             </Row>
