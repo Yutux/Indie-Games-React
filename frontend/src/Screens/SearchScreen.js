@@ -127,7 +127,6 @@ export default function SearchScreen() {
     const sortOrder = filter.order || order;
     return `/search?category=${filterCategory}&query=${filterQuery}&price=${filterPrice}&rating=${filterRating}&order=${sortOrder}&page=${filterPage}`;
   };
-  console.log(games);
   return (
     <div>
       <Helmet>
@@ -248,7 +247,6 @@ export default function SearchScreen() {
                   </select>
                 </Col>
               </Row>
-              {console.log(games) }
               {games.length === 0 && (
                 <MessageBox>No game Found</MessageBox>
               )}

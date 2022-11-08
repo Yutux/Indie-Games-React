@@ -1,0 +1,15 @@
+https://indies-games.herokuapp.com/
+https://indies-games.herokuapp.com/search
+https://indies-games.herokuapp.com/cart
+https://indies-games.herokuapp.com/profile
+https://indies-games.herokuapp.com/orderhistory
+https://indies-games.herokuapp.com/admin/dashboard
+https://indies-games.herokuapp.com/admin/games
+https://indies-games.herokuapp.com/admin/orders
+https://indies-games.herokuapp.com/admin/users
+https://indies-games.herokuapp.com/game/Construction-Simulator
+https://indies-games.herokuapp.com/game/foundation
+https://indies-games.herokuapp.com/game/Sheltered
+https://indies-games.herokuapp.com/game/GTA%205
+https://indies-games.herokuapp.com/signin
+https://indies-games.herokuapp.com/signup

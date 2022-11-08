@@ -4,7 +4,6 @@ import bcrypt from 'bcryptjs';
 import { isAuth, isAdmin, generateToken } from '../utils.js';
 import expressAsyncHandler from 'express-async-handler';
 
-
 const userRouter = express.Router();
 
 userRouter.get(

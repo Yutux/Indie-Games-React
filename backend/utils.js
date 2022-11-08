@@ -1,4 +1,5 @@
 import jwt from 'jsonwebtoken';
+//import nodemailer from 'nodemailer';
 
 export const generateToken = (user) => {
     return jwt.sign(

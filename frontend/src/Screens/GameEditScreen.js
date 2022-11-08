@@ -149,9 +149,9 @@ export default function GameEditScreen() {
   };
 
   const deleteFileHandler = async (fileName, f) => {
-    console.log(fileName, f);
-    console.log(images);
-    console.log(images.filter((x) => x !== fileName));
+    // console.log(fileName, f);
+    // console.log(images);
+    // console.log(images.filter((x) => x !== fileName));
     setImages(images.filter((x) => x !== fileName));
     toast.success('Image removed successfully. click Update to apply it');
   };
