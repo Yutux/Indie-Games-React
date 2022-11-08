@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://indies-games.herokuapp.com/</loc>
+  <lastmod>2022-11-08T11:44:20+00:00</lastmod>
+  <loc>https://indies-games.herokuapp.com/search</loc>
+  <lastmod>2022-11-08T11:44:20+00:00</lastmod>
+  <loc>https://indies-games.herokuapp.com/cart</loc>
+  <lastmod>2022-11-08T11:44:20+00:00</lastmod>
+  <loc>https://indies-games.herokuapp.com/profile</loc>
+  <lastmod>2022-11-08T11:44:20+00:00</lastmod>
+  <loc>https://indies-games.herokuapp.com/orderhistory/</loc>
+  <lastmod>2022-11-08T11:44:20+00:00</lastmod>
+  <loc>https://indies-games.herokuapp.com/admin/dashboard</loc>
+  <lastmod>2022-11-08T11:44:20+00:00</lastmod>
+  <loc>https://indies-games.herokuapp.com/admin/games</loc>
+  <lastmod>2022-11-08T11:44:20+00:00</lastmod>
+  <loc>https://indies-games.herokuapp.com/admin/orders</loc>
+  <lastmod>2022-11-08T11:44:20+00:00</lastmod>
+  <loc>https://indies-games.herokuapp.com/admin/users</loc>
+  <lastmod>2022-11-08T11:44:20+00:00</lastmod>
+  <loc>https://indies-games.herokuapp.com/game/Construction-Simulator</loc>
+  <lastmod>2022-11-08T11:44:20+00:00</lastmod>
+  <loc>https://indies-games.herokuapp.com/game/foundation</loc>
+  <lastmod>2022-11-08T11:44:20+00:00</lastmod>
+  <loc>https://indies-games.herokuapp.com/game/Sheltered</loc>
+  <lastmod>2022-11-08T11:44:20+00:00</lastmod>
+  <loc>https://indies-games.herokuapp.com/game/GTA%205</loc>
+  <lastmod>2022-11-08T11:44:20+00:00</lastmod>
+  <loc>https://indies-games.herokuapp.com/signup</loc>
+  <lastmod>2022-11-08T11:44:20+00:00</lastmod>
+  <loc>https://indies-games.herokuapp.com/signin</loc>
+  <lastmod>2022-11-08T11:44:20+00:00</lastmod>
+</url>
+
+
+</urlset>
