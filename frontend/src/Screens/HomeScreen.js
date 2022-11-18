@@ -1,13 +1,11 @@
 import { useEffect, useReducer} from "react";
 import axios from 'axios';
-import logger from 'use-reducer-logger';
 import Row from 'react-bootstrap/Row';
 import LoadingBox from '../Conponents/LoadingBox';
 import Col from 'react-bootstrap/Col';
 import ProdGame from '../Conponents/ProdGame';
 import { Helmet } from "react-helmet-async";
 import MessageBox from "../Conponents/MessageBox";
-//import data from "../data";
 
 const reducer = (state, action) =>{
     switch(action.type){
@@ -24,7 +22,7 @@ const reducer = (state, action) =>{
 
 function HomeScreen() {
 
-    const[{loading, error, game}, dispatch] = useReducer(logger(reducer), {
+    const[{loading, error, game}, dispatch] = useReducer((reducer), {
         game:[],
         loading: true, 
         error: '',

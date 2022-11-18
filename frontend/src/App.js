@@ -12,6 +12,7 @@ import Nav from 'react-bootstrap/Nav';
 import { useContext, useEffect, useState } from 'react';
 import { Store } from './Store';
 import { Link } from 'react-router-dom';
+import { Footer } from './Conponents/Footer';
 import CartScreen from './Screens/CartScreen';
 import SigninScreen from './Screens/SigninScreen';
 import ShippingAddressScreen from './Screens/ShippingAddressScreen';
@@ -35,6 +36,11 @@ import OrderListScreen from './Screens/OrderListScreen';
 import UserListScreen from './Screens/UserListScreen';
 import UserEditScreen from './Screens/EditUserScreen';
 import MapScreen from './Screens/MapScreen';
+import DisclaimerScreen from './Screens/DisclaimerScreen';
+import RefundScreen from './Screens/RefundScreen';
+import PrivacyPolicy from './Screens/PrivacyPolicy';
+import TermAndConditions from './Screens/TermAndConditions';
+import ContactusScreen from './Screens/ContactusScreen';
 
 function App() {
 
@@ -260,13 +266,16 @@ function App() {
                   </AdminRoute>
                 }
               ></Route>
+            <Route path="/disclaimer" element={<DisclaimerScreen />}></Route>
+            <Route path="/Refund" element={<RefundScreen />}></Route>
+            <Route path="/PrivacyPolicy" element={<PrivacyPolicy />}></Route>
+            <Route path="/Term&Condition" element={<TermAndConditions />}></Route>
+            <Route path="/ContactUs" element={<ContactusScreen />}></Route>
             <Route path="/" element={<HomeScreen />}></Route>
           </Routes>
         </Container>
       </main>
-      <footer>
-        <div className='text-center'>All rights reserved</div>
-      </footer>
+      <Footer />
     </div>
     </BrowserRouter>
   );
