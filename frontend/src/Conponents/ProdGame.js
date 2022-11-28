@@ -38,7 +38,7 @@ function ProdGame(props){
                 <Card.Title>{game.name}</Card.Title>
             </Link>
             <Rating rating={game.rating} numReviews={game?.numReviews} />
-            <Card.Text>{game.price}</Card.Text>
+            <Card.Text>{game.price}€</Card.Text>
             {game.countInStock === 0 ?
             ( <Button variant='light' disabled> Out of codes</Button> ) :
              (

@@ -141,7 +141,7 @@ function GameScreen(){
                             </Rating>
                         </ListGroup.Item>
                         <ListGroup.Item>
-                            Price: ${game.price}
+                            Price: {game.price}€
                         </ListGroup.Item>
                         <ListGroup.Item>
                           <Row xs={1} md={2} className="g-2">
@@ -173,7 +173,7 @@ function GameScreen(){
                             <ListGroup variant="flush">
                                 <Row>
                                     <Col>Price:</Col>
-                                    <Col>${game.price}</Col>
+                                    <Col>{game.price}€</Col>
                                 </Row>
                             </ListGroup>
                             <ListGroup variant="flush">

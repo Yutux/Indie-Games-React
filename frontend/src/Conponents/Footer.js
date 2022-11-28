@@ -11,19 +11,8 @@ import "../index.css";
 
 export const Footer = () => {
 
-  function changeEnter(e){
-    e.target.style.color = 'black';
-    e.target.style.background = 'white';
-    e.target.style.textDecoration = 'underline';
-  };
-  function changeLeave(e){
-    e.target.style.color = 'white';
-    e.target.style.background = 'none';
-    e.target.style.textDecoration = 'none';
-  };
-
   return (
-    <div className="footer">
+    <div className="footer" >
       <div>
         <div  className="footer-content">
           <h3
@@ -32,7 +21,7 @@ export const Footer = () => {
               fontSize: "2em"
             }}
           >
-            <em>Indie-</em>Games
+            <em>Indies-</em>Games
           </h3>
           <p>Indie-Games is a registered company under YTIC Tech Pvt. Ltd.</p>
           <div className="sub">
@@ -40,7 +29,7 @@ export const Footer = () => {
               <b>Company</b>
               <p>About</p>
               <p>Blog</p>
-              <p><Link onMouseEnter={changeEnter} onMouseLeave={changeLeave} style={{textDecoration: 'none', color: 'white' }} to={"/contactus"}> Contact Us </Link></p>
+              <p><Link className="links" to={"/contactus"}> Contact Us </Link></p>
             </div>
             <div>
               <b>For Gamers</b>
@@ -49,10 +38,10 @@ export const Footer = () => {
             </div>
             <div>
               <b>For You</b>
-              <p><Link onMouseEnter={changeEnter} onMouseLeave={changeLeave} style={{textDecoration: 'none', color: 'white' }} to={"/Term&Condition"}> Terms of service </Link></p>
-              <p><Link onMouseEnter={changeEnter} onMouseLeave={changeLeave} style={{textDecoration: 'none', color: 'white' }} to={"/Refund"}> Refund </Link></p>
-              <p><Link onMouseEnter={changeEnter} onMouseLeave={changeLeave} style={{textDecoration: 'none', color: 'white' }} to={"/disclaimer"}> Disclaimer </Link></p>
-              <p><Link onMouseEnter={changeEnter} onMouseLeave={changeLeave} style={{textDecoration: 'none', color: 'white' }} to={"/PrivacyPolicy"}> Privacy Policy </Link></p>
+              <p><Link className="links"  to={"/Term&Condition"}> Terms of service </Link></p>
+              <p><Link className="links" to={"/Refund"}> Refund </Link></p>
+              <p><Link className="links" to={"/disclaimer"}> Disclaimer </Link></p>
+              <p><Link className="links" to={"/PrivacyPolicy"}> Privacy Policy </Link></p>
             </div>
             <div>
               <b>Social links</b>

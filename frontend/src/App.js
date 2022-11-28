@@ -87,14 +87,16 @@ function App() {
 
           <Container >
           <Button
+                bg="dark"
                 variant="dark"
+                expand="lg"
                 onClick={() => setSidebarIsOpen(!sidebarIsOpen)}
               >
                 <i className="fas fa-bars"></i>
               </Button>
 
           <LinkContainer to="/">
-              <Navbar.Brand>Indie Games</Navbar.Brand>
+              <Navbar.Brand>Indies Games</Navbar.Brand>
             </LinkContainer>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
@@ -168,7 +170,7 @@ function App() {
                   to={`/search?category=${category}`}
                   onClick={() => setSidebarIsOpen(false)}
                 >
-                  <Nav.Link>{category}</Nav.Link>
+                  <Nav.Link >{category}</Nav.Link>
                 </LinkContainer>
               </Nav.Item>
             ))}
